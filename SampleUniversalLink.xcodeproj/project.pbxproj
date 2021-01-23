@@ -45,6 +45,7 @@
 		62188AFC25BBEB2A0090DDBC /* SampleUniversalLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUniversalLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62188B0025BBEB2A0090DDBC /* SampleUniversalLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUniversalLinkUITests.swift; sourceTree = "<group>"; };
 		62188B0225BBEB2A0090DDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62188B1125BBECA30090DDBC /* SampleUniversalLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleUniversalLink.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		62188AE225BBEB290090DDBC /* SampleUniversalLink */ = {
 			isa = PBXGroup;
 			children = (
+				62188B1125BBECA30090DDBC /* SampleUniversalLink.entitlements */,
 				62188AE325BBEB290090DDBC /* SampleUniversalLinkApp.swift */,
 				62188AE525BBEB290090DDBC /* ContentView.swift */,
 				62188AE725BBEB290090DDBC /* Assets.xcassets */,
@@ -417,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleUniversalLink/SampleUniversalLink.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleUniversalLink/Preview Content\"";
 				DEVELOPMENT_TEAM = T36PKL4C35;
@@ -439,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleUniversalLink/SampleUniversalLink.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleUniversalLink/Preview Content\"";
 				DEVELOPMENT_TEAM = T36PKL4C35;
